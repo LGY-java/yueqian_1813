@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="E:\QIANJAVA\AJVA\java" version="1.8.0_171">
+<bootpath>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\resources.jar"/>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\rt.jar"/>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\sunrsasign.jar"/>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\jsse.jar"/>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\jce.jar"/>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\charsets.jar"/>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\jfr.jar"/>
+<entry path="E:\QIANJAVA\AJVA\java\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="E:\QIANJAVA\AJVA\java\jre" version="1.8.0_171">
+<bootpath>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\resources.jar"/>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\rt.jar"/>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\sunrsasign.jar"/>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\jsse.jar"/>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\jce.jar"/>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\charsets.jar"/>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\jfr.jar"/>
+<entry path="E:\QIANJAVA\AJVA\java\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\QIANJAVA\AJVA\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

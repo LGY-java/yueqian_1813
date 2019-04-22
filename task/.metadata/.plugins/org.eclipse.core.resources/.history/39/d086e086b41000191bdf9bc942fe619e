@@ -1,0 +1,31 @@
+package org.yueqian.Tes1;
+
+public class Tse_1 {
+	public static void main (String []args){
+		xues xues = new xues();
+		sud sud = new sud();
+		xues.xues="nihao";
+		System.out.println(xues.xusr());
+	}
+}
+
+class sud{
+	public void sudlt(String xues) {
+		System.out.print("上厕所");
+	}
+}
+
+class xues{
+	public String xues;
+	public String  xusr(){
+		synchronized (this) {
+			return xues;
+		}
+	}
+	public void xusr1(){
+		synchronized (this) {
+			System.out.println(xues);
+		}
+	}
+	
+}

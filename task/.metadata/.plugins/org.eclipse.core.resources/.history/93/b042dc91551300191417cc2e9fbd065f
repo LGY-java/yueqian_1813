@@ -1,0 +1,48 @@
+package org.yueqina.web;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.security.Principal;
+
+import javax.print.attribute.standard.PageRanges;
+
+public class F_server {
+
+	public static void main(String[] args) throws IOException {
+		File file = new File("imag");
+		file.mkdir();
+		
+		
+		ServerSocket server = new ServerSocket(10022);
+		while (true) {
+			Socket accept = server.accept();
+				new Thread(){
+
+					@Override
+					public void run() {
+						try {
+							BufferedReader Reade = new BufferedReader(new InputStreamReader(accept.getInputStream()));
+							PrintStream printS = new PrintStream(accept.getOutputStream());
+							printS.println("上传成功");
+							System.out.println(Reade.readLine());
+							accept.close();
+						} catch (IOException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+					
+				}.start();
+			
+		}
+		
+	}
+
+}

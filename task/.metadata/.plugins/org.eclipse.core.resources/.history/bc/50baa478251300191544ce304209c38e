@@ -1,0 +1,27 @@
+package org.yueqina.web;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.security.Principal;
+
+import javax.print.attribute.standard.PageRanges;
+
+public class F_server {
+
+	public static void main(String[] args) throws IOException {
+		ServerSocket server = new ServerSocket(10022);
+		Socket accept = server.accept();
+		BufferedReader Reade = new BufferedReader(new InputStreamReader(accept.getInputStream()));
+		PrintStream printS = new PrintStream(accept.getOutputStream());
+		printS.println("哈哈哈");
+		System.out.println(Reade.readLine());
+		accept.close();
+	}
+
+}

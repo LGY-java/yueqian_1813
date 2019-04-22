@@ -1,0 +1,43 @@
+package org.yueqian.Tes1;
+
+public class Tse_1 {
+	public static void main (String []args){
+		xues xues = new xues();
+		sud sud = new sud();
+		new Thread(){
+
+			@Override
+			public void run() {
+				try {
+					Thread.sleep(100);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+				
+			}
+			
+		};
+		
+	}
+}
+
+class sud{
+	public void sudlt(String xues) {
+		System.out.print("上厕所");
+	}
+}
+
+class xues{
+	public String xues;
+	public void xusr(){
+		synchronized (this) {
+			System.out.println(xues);
+		}
+	}
+	public void xusr1(){
+		synchronized (this) {
+			System.out.println(xues);
+		}
+	}
+	
+}

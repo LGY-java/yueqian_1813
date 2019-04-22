@@ -1,0 +1,24 @@
+package org.yueqina.web;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+public class K_Client {
+	public static void main(String[] args) throws Exception{
+		server();
+		
+	
+	}
+
+	private static void server() throws UnknownHostException, IOException {
+		Socket socket = new	Socket("127.0.0.1",10022);
+		BufferedReader Reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+		PrintStream printS = new PrintStream(socket.getOutputStream());
+		System.out.println(Reader.readLine());
+		printS.println("sss");
+	}
+}

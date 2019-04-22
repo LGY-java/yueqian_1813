@@ -1,0 +1,21 @@
+INDEX VERSION 1.129+E:\QIANJAVA\AJVA\java_task\task\.metadata\.plugins\org.eclipse.jdt.core
+1010990954.index
+1454716051.index
+1719835313.index
+1262554266.index
+1368274073.index
+3245890226.index
+205660643.index
+767036483.index
+3023328583.index
+2989438607.index
+2610429502.index
+4206827438.index
+3629830752.index
+268091334.index
+2381800935.index
+2493852492.index
+237665830.index
+2390246112.index
+1023691498.index
+3792748743.index
